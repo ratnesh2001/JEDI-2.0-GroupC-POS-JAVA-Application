@@ -1,7 +1,7 @@
-package com.flipkart.business;
+package com.flipkart.service;
 import com.flipkart.bean.*;
 
-public class ProfessorBusiness {
+public class ProfessorOperation extends UserOperation{
 
 	public void viewEnrolledStudent() {
 		

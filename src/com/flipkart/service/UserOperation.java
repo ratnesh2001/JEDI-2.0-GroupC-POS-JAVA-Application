@@ -1,34 +1,34 @@
 /**
  * 
  */
-package com.flipkart.business;
+package com.flipkart.service;
 import com.flipkart.bean.*;
 
 /**
  * @author ratnesh.khandelwal
  *
  */
-public class UserBusiness {
+public class UserOperation {
 	
 	User user = new User();
 	
-	
-	
-	private void admin() {
-		// TODO Auto-generated method stub
-		System.out.println("SOMETHING SOMETHING SOMETHING SHOEMTHING");
-		
-	}
-
-	private void professor() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	private void student() {
-		// TODO Auto-generated method stub
-		
-	}
+//	
+//	
+//	private void admin() {
+//		// TODO Auto-generated method stub
+//		System.out.println("SOMETHING SOMETHING SOMETHING SHOEMTHING");
+//		
+//	}
+//
+//	private void professor() {
+//		// TODO Auto-generated method stub
+//		
+//	}
+//
+//	private void student() {
+//		// TODO Auto-generated method stub
+//		
+//	}
 
 	
 	

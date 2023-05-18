@@ -10,6 +10,9 @@ package com.flipkart.bean;
 public class User {
 	
 	private int userId;
+	private String name;
+	private String role;
+	
 	public int getUserId() {
 		return userId;
 	}
@@ -34,8 +37,7 @@ public class User {
 		this.role = role;
 	}
 
-	private String name;
-	private String role;
+	
 	
 	
 

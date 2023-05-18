@@ -10,13 +10,16 @@ import java.util.List;
  *
  */
 public class GradeCard {
-	private int studentid;
+	private int studentId;
+	private int semester;
+	private float cpi;
+    private List<String> registeredCourses;
 	
-	public int getStudentid() {
-		return studentid;
+	public int getStudentId() {
+		return studentId;
 	}
 	public void setStudentid(int studentid) {
-		this.studentid = studentid;
+		this.studentId = studentid;
 	}
 	public int getSemester() {
 		return semester;
@@ -25,10 +28,10 @@ public class GradeCard {
 		this.semester = semester;
 	}
 	public float getCp1() {
-		return Cp1;
+		return cpi;
 	}
 	public void setCp1(float cp1) {
-		Cp1 = cp1;
+		cpi = cp1;
 	}
 	public List<String> getRegisteredCourses() {
 		return registeredCourses;
@@ -36,9 +39,7 @@ public class GradeCard {
 	public void setRegisteredCourses(List<String> registeredCourses) {
 		this.registeredCourses = registeredCourses;
 	}
-	private int semester;
-	private float Cp1;
-    private List<String> registeredCourses;
+
     
     
 

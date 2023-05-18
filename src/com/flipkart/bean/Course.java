@@ -7,8 +7,12 @@ package com.flipkart.bean;
  * @author ratnesh.khandelwal
  *
  */
-public class Course extends Catalog{
+public class Course{
 	private String courseCode;
+	private String name;
+	private boolean isOffered;
+	private String instructor;
+	
 	public String getCourseCode() {
 		return courseCode;
 	}
@@ -33,7 +37,5 @@ public class Course extends Catalog{
 	public void setInstructor(String instructor) {
 		this.instructor = instructor;
 	}
-	private String name;
-	private boolean isOffered;
-	private String instructor;
+	
 }

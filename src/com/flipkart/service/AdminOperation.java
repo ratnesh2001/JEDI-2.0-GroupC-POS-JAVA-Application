@@ -1,7 +1,7 @@
-package com.flipkart.business;
+package com.flipkart.service;
 import com.flipkart.bean.*;
 
-public class AdminBusiness {
+public class AdminOperation extends UserOperation{
 	
 	public boolean addProfessor() {
 		return true;
@@ -20,4 +20,7 @@ public class AdminBusiness {
 		return true;
 	}
 	
+	public void generateGradeCard() {
+		
+	}
 }

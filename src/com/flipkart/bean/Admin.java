@@ -17,6 +17,4 @@ public class Admin extends User{
 	public void setDOJ(String dOJ) {
 		DOJ = dOJ;
 	}
-	
-	
 }
