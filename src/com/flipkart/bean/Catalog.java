@@ -8,16 +8,5 @@ package com.flipkart.bean;
  *
  */
 public class Catalog {
-	public boolean addCourse() {
-        return true;
-    }
-
-    public boolean deleteCourse() {
-        return true;
-    }
-
-
-    public boolean viewCoursesDetails() {
-        return true;
-    }
+	
 }

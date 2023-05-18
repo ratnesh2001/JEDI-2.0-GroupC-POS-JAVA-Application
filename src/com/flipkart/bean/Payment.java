@@ -13,7 +13,4 @@ public class Payment {
 	private float amount;
 	private boolean status;
 	
-	public void sendNotification() {
-		
-	}
 }

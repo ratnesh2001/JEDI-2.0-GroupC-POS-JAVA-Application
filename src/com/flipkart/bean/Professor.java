@@ -12,11 +12,5 @@ public class Professor extends User{
 	private String designation;
 	private String DOJ;
 	
-	public void viewEnrolledStudent() {
-		
-	}
 	
-	public void addGrade() {
-		
-	}
 }

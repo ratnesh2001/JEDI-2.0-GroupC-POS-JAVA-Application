@@ -37,18 +37,6 @@ public class User {
 	private String name;
 	private String role;
 	
-	public boolean updateDetails(int userID, String Name, String Role) {
-		this.name = Name;
-		this.role = Role;
-		
-		System.out.println("update details of the user");
-		return true;
-	}
 	
-	public boolean updatePassword() {
-		System.out.println("update details of the user");
-		return true;
-		
-	}
 
 }

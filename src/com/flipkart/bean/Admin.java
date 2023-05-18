@@ -9,17 +9,14 @@ package com.flipkart.bean;
  */
 public class Admin extends User{
 	private String DOJ;
-	
-	public boolean addProfessor() {
-		return true;
-		
+
+	public String getDOJ() {
+		return DOJ;
+	}
+
+	public void setDOJ(String dOJ) {
+		DOJ = dOJ;
 	}
 	
-	public boolean assignCourse() {
-		return true;
-	}
 	
-	public boolean approveStudent() {
-		return true;
-	}
 }

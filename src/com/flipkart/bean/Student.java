@@ -2,16 +2,26 @@ package com.flipkart.bean;
 
 public class Student extends User {
 	 private int studentId;
-	 private String branch;
+	 public int getStudentId() {
+		return studentId;
+	}
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+	public String getBranch() {
+		return branch;
+	}
+	public void setBranch(String branch) {
+		this.branch = branch;
+	}
+	public int getBatch() {
+		return batch;
+	}
+	public void setBatch(int batch) {
+		this.batch = batch;
+	}
+	private String branch;
 	 private int batch;
 	 
-	 public boolean changePassword() {
-		 return true;
-	 }
-	 public boolean register() {
-		 return true;
-	 }
-	 public boolean viewGradeCard(String newPassword) {
-		 return true;
-	 }
+	 
 	}
